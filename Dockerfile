@@ -6,9 +6,9 @@ RUN \
   apt-get -y install apt-transport-https && \
   apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FDA5DFFC && \
   echo "deb https://apt.sonarr.tv/ master main" > /etc/apt/sources.list.d/sonarr.list && \
-  apt-get update && \ 
+  apt-get update && \
   apt-get -y install \
-    nzbdrone=2.0.0.4146
+    nzbdrone=2.0.0.4230
 
 EXPOSE 8989 
 
