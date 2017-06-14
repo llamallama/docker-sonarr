@@ -23,6 +23,6 @@ docker run -d --name sonarr \
               -v /mnt/external/downloads:/downloads \
               -v /mnt/external/tv:/destination \
               -p 8989:8989 \
-              csmith/sonarr:2.0.0.4146
+              llamallama/sonarr:2.0.0.4146
 ```
 
